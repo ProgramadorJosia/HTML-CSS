@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: red;
+}
+:root{
+    --cor1: black;
+    --cor2: yellow;
+    --cor3: red;
+}
+header{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
+    padding: 10px;
+}
+header h1{
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+header p{
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+nav{
+    background-image:linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
+    padding: 10px;
+}
+nav> a{
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    padding: 10px;
+    background-image:linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
+    color: black;
+    transition: .7s;
+    border-radius: 10px;
+    text-decoration: underline;
+    } 
+    main{
+        background-color: red;
+        padding: 10px;
+
+    } 
+article{
+    background-color: black;
+    padding: 10px ;
+}    
+article> h1{
+     color: var(--cor2);
+     padding: 10px;
+     text-align: center;
+}
+.jp{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 70%;
+}
+footer{
+     background-image:linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
+    padding: 10px;
+}
+footer> p{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}

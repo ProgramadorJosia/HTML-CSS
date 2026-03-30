@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texte de pseudo classe</title>
+</head>
+<style>
+    body{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.315));
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    div{
+        display: inline-block;
+        border: 1px solid white;
+        color: rgb(158, 161, 161);
+        text-align: center;
+        width: 150px;
+        height: 150px;
+
+    }
+    #j{
+        background-color: aqua;
+    }
+    div:hover{
+        background-color: black;
+        color: white;
+    }
+    div> p{
+        display: none;
+    }
+    div:hover> p{
+        display: block;
+        background-color: rgb(111, 120, 201);
+        color: rgb(70, 49, 49);
+    }
+</style>
+<body>
+    <h1>MINHAS DIVs</h1>
+     <div>2</div>
+      <div id="j">
+        CLIQUE AQUI
+        <P>Josia</P>
+     </div>
+      <div>3</div>
+    
+</body>
+</html>

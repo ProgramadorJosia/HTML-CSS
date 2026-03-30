@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>JOSAPTecnologic</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin: 0px;
+    }
+    header{
+        background-image: linear-gradient(to right, blue, rgba(0, 0, 255, 0.801), rgba(0, 0, 255, 0.541));
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    nav{
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.685);
+        background-color: blue;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+
+    }
+    nav a{
+        text-decoration: none;
+        margin-right: 40px;
+        color: aqua;
+    }
+    nav a:hover{
+        color: maroon;
+        text-decoration: underline;
+    }
+    main{
+        background-image: linear-gradient(to right,  blue, rgba(0, 0, 255, 0.801), rgba(0, 0, 255, 0.541));
+        border-radius: 5px;
+        min-width: 310px;
+        max-width: 800px;
+        padding: 5px;
+        margin: 5px;
+        margin: auto;
+    }
+    video{
+        width: 300px;
+    }
+    #marca> h2{
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    #assuntos{
+        padding: 5px;
+        margin: 5px;
+      
+    }
+    article{
+        background-color: black;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+    }
+    aside{
+        background-color: white;
+        border-radius: 5px;
+        color: black;
+        text-align: justify;
+        padding: 5px;
+        margin: 5px;
+    }
+    footer{
+        margin: 5px;
+        text-align: center;
+    }
+    img{
+        border-radius: 5px;
+        width: 100%;
+    }
+    video{
+        border-radius: 5px;
+    }
+    .jotta{
+        background-color: black;
+        padding: 30px;
+        margin: 0px;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu primeiro site</h1>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">SOBRE</a>
+            <a href="#">FALE CONOSCO</a>
+            <a href="#">LOGIN</a>
+        </nav>
+    </header>
+    <main>
+        <section id="marca">
+            <h2>A Nossa Marca</h2>
+            <picture>
+                <source media="(max-width:700px )" srcset="imagens/pequeno.jpg" type="image/jpg">
+                <source media="(max-width:1000px )" srcset="imagens/medio.jpg" type="image/jpg">
+                <img src="imagens/logo.png" alt="">
+            </picture>
+            </div>
+        </section>
+        <section>
+            <article  id="assuntos">
+                <h2>Nossos Recados</h2>
+                <aside>
+                    <h3>Assuntos</h3>
+                    <div class="jotta">
+                    <video controls loop>
+                       <source src="video/memorizar.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eos maxime sit corporis perferendis totam obcaecati id maiores doloribus nulla quisquam, magni ipsam rem aliquam, pariatur inventore quae Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet adipisci iusto, magnam nostrum exercitationem libero facere nobis nemo non sequi voluptatem? Maxime, est mollitia ullam laudantium ratione corrupti corporis dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat amet itaque architecto similique nobis, iusto minima in eaque dolores, facere a distinctio dignissimos inventore libero possimus fugit, blanditiis tempore accusamus. tempora blanditiis?</p>
+                </aside>  
+                <aside>
+                    <h3>Passos do Aprendizado</h3> 
+                    <div class="jotta">
+                    <video controls autoplay loop>        
+                        <source src="video/ingles.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore est recusandae, minima consequatur voluptatem impedit amet voluptate quibusdam dolorem mollitia omnis perspiciatis inventore nobis, aliquam consequuntur earum facere id possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam dolorem cupiditate itaque. Quae aut eos, veritatis provident praesentium architecto ullam assumenda a reiciendis amet dolorem facere non, iure laboriosam eum! elit. Culpa aliquam autem nisi aperiam praesentium qui, eum consectetur eveniet voluptatum provident et molestias omnis magnam ipsum labore, dolor consequuntur obcaecati officiis!</p>
+                </aside>
+            </article>
+            <article id="noticias">
+                <h3>Notícias</h3>
+                <aside>
+                     <h4>Notícias da JOSAP</h4>
+                     <div class="jotta">
+                     <img src="imagens/eu.png" alt="">
+                     </div>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem veritatis autem nisi, quod, deleniti cumque ducimus distinctio expedita Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto aperiam nesciunt beatae labore inventore placeat illo atque, aliquam, numquam voluptatem ipsum, laborum iusto similique ullam quae magni omnis reiciendis perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum recusandae impedit eveniet molestias eaque cupiditate eius debitis! Praesentium quam fugit non architecto dolore ratione modi blanditiis dolores excepturi sunt! veniam nobis maxime soluta, sit blanditiis inventore in recusandae nulla totam.</p>
+                </aside>
+                <aside>
+                    <h4>Nossos Equipamentos</h4>
+                    <div class="jotta">
+                    <img src="imagens/diversos.jpg" alt="">
+                    </div> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur vitae nulla at reprehenderit et alias amet quas molestiae ipsum soluta quae est suscipit, ea minus earum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorum ipsa fuga natus, optio rerum ad at, quas vero nam labore possimus tempora atque inventore quod, eligendi eveniet sapiente consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi harum illum doloremque consequatur excepturi magni libero quam? Mollitia ut quis, molestiae blanditiis libero vel, doloribus fugiat dolores voluptatibus quas veniam? libero nesciunt asperiores!</p>  
+                </aside>    
+                <aside>  
+                    <h4>Outros</h4>  
+                    <div class="jotta">
+                    <img src="imagens/alguns.jpg" alt="">
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam architecto ipsum aliquam dolor et tempora natus ex possimus libero perferendis, dignissimos Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero ex modi delectus voluptas deleniti corrupti sed, sequi architecto odit quis voluptatibus praesentium rerum aperiam, dolor laboriosam corporis iste? Eius, iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptates itaque ducimus dolore repellat maxime accusamus architecto necessitatibus, libero explicabo eveniet eligendi ipsam, nam minima recusandae mollitia laborum commodi non? laborum culpa sint perspiciatis iusto doloribus blanditiis maxime modi!</p>
+                </aside>
+            </article>
+        </section>
+        </main>
+    <footer>
+        <p>DESENVOLVIDO PELA JOSAP</p>
+    </footer>
+    
+</body>
+</html>
